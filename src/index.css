@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+
+html{
+    height: 100% !important;
+}
+
+body{
+    font-family: 'Special Elite', cursive;
+    background: #002233 !important;
+    height: 100%;
+}
+
+.mychat-logo {
+    width: 5em;
+    height: 5em;
+}
+
+.mychat-brand-logo {
+    width: 2em;
+    height: 2em;
+}
+
+.glass-container {
+    /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.02);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(3.3px);
+    -webkit-backdrop-filter: blur(3.3px);
+    border: 1px solid rgba(255, 255, 255, 0.07);
+}
+
+.mychat-btn{
+    background-color: #024661;
+    color: whitesmoke;
+}
+
+.mychat-btn:hover{
+    background-color: #002233;
+    color: lightblue;
+}
+
+.mychat-form-control{
+    background: transparent !important;
+    /* border-color: #002233 !important; */
+    color: whitesmoke !important;
+}
+
+.mychat-link{
+    color: #3FD3E9;
+    text-decoration: none;
+}
+.mychat-link:hover{
+    color: #3FD3E9;
+    text-decoration: underline;
+}
+
+.btn-logout{
+    font-size: 1.5em;
+    color: red;
+}
