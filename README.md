@@ -1,1 +1,1 @@
-# My Chat App
+# My Chat App - Frontend
